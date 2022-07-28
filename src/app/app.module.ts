@@ -14,7 +14,7 @@ import { GoogleLoginProvider } from '@abacritt/angularx-social-login';
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    SocialLoginModule
+    SocialLoginModule,
   ],
   providers: [
     {
