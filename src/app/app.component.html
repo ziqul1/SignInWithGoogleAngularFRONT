@@ -18,6 +18,10 @@
 
   <div *ngIf="user">
     <h4>You successfully accessed the protected service API: </h4>
+    <!-- {{($isAuthorized | async)!.text}} -->
+    <div *ngIf="($isAuthorized | async) as result">
+      {{result.text}}
+    </div>
   </div>
 </div>
 <router-outlet></router-outlet>
