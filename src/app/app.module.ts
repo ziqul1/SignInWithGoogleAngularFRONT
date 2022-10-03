@@ -39,6 +39,7 @@ export function tokenGetter() {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
               // replace this with your google client id
+              // google client id added below is only for example - it's fake client id
               '872839950171-duj7lkcq33r0u13b0p4p3qc66i6iqdvd.apps.googleusercontent.com'
             )
           }
